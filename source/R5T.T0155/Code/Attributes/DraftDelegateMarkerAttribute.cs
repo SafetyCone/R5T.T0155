@@ -8,7 +8,7 @@ namespace R5T.T0155
     /// <summary>
     /// Attribute indicating a type is a draft delegate.
     /// Draft delegates are quickly created and should be reviewed and relocated, and thus become full delegates.
-    /// The marker attribute is useful for surveying assemblies and code, then building a catalogue of draft Razor components as a kind of TODO list.
+    /// The marker attribute is useful for surveying assemblies and code, then building a catalogue of draft delegates as a kind of TODO list.
     /// </summary>
     [AttributeUsage(AttributeTargets.Delegate, AllowMultiple = false, Inherited = false)]
     [MarkerAttributeMarker]
